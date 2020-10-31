@@ -76,6 +76,10 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
     }
     
+    @IBAction func cancel(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
